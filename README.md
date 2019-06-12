@@ -1,1 +1,1 @@
-# code_review_course
+# codereview
