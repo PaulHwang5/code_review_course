@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include "priority_queue.h"
 
+#define CUSTOMNUMER_NUM_OVER -1
+
 using namespace std;
 
 template <typename T>
@@ -36,11 +38,11 @@ int main(int argc, char* argv[]){
 			pushQueue(&priQueue,customNumber);
 		}
 		else{
-			pushQueue(&priQueue,-1);
+			pushQueue(&priQueue,CUSTOMNUMER_NUM_OVER);
 		}
 	}
 	else{
-		pushQueue(&priQueue,-1);
+		pushQueue(&priQueue,CUSTOMNUMER_NUM_OVER);
 	}
 
 	//empty & size
